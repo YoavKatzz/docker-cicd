@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/aspnet:latest as build-image
+FROM mcr.microsoft.com/dotnet/sdk:latest as build-image
 
 WORKDIR /home/app
 
